@@ -13,6 +13,8 @@ https://youtube.com/shorts/Vfx6tQDuc2A
 https://codesandbox.io/s/r0hx18
 
 ## Getting Started
+
+0. downloading and installing Go: https://go.dev/doc/install
 1. clone this repository: `git clone git@github.com:yoidea/akamai-t-shirt.git `
 2. change the directory: `cd akamai-t-shirt`
 3. start a server: `go run main.go`
@@ -38,7 +40,7 @@ Get a status that whether the server is processing.
 | --- | --- |
 | ACTIVE | processing |
 | INACTIVE | not processing |
-| TIMEOUT | could not be processed in time |
+| TIMEOUT | could not get status in time |
 
 #### Example
 
@@ -67,7 +69,7 @@ Register target properties to the server.
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
 | target | String | Yes | the name of the target |
-| count | String | Yes | the target of the quantity |
+| count | Uint32 | Yes | the target of the quantity |
 
 #### Responses
 
