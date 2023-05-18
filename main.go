@@ -90,7 +90,7 @@ func admin(cc chan ControlMessage, statusPollChannel chan chan bool) {
 // Should be some process for UNIQLO.
 // Or, for PEACE?
 func doStuff(msg ControlMessage, cc chan bool) {
-	fmt.Printf("Do something for target %s with count %d \n", msg.Target, msg.Count)
+	fmt.Printf("Target: %s, Count: %d \n", msg.Target, msg.Count)
 	// Not very sure what we need to pass here.
 	// But since no one would pass parameters to the method that they don't need,
 	// and the worker becomes active after getting the message.
