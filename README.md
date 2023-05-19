@@ -4,9 +4,9 @@
 UNIQLOが発売しているTシャツに印刷されているプログラムを写経・加筆して実行可能にしてみました。
 https://www.uniqlo.com/jp/ja/products/E459561-000
 
-### YouTube Shorts (仮)
+### YouTube Shorts
 
-https://youtube.com/shorts/Vfx6tQDuc2A
+https://youtube.com/shorts/vfnzovi-HG8
 
 ### Sample web client
 
